@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.example.movieapp"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.movieapp"
         minSdk = 25
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -48,7 +48,7 @@ dependencies {
     // Retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.google.code.gson:gson:2.10.1")
-    implementation("com.squareup.retrofit2:convert-gson:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     // Glide
     implementation("com.github.bumptech.glide:glide:4.15.1")
     //CircularProgressIndicator
